@@ -4,7 +4,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 
 # Definir las rutas
-data_dir = 'data/tu_dataset'
+data_dir = 'data/'
 batch_size = 32
 img_height = 180
 img_width = 180
